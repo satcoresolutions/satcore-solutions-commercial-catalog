@@ -9,6 +9,19 @@ export const labradoriteBracelet: ProductData = {
   image:
     "/images/products/010/010.png",
 
+  images: [
+    "/images/products/010/010.png",
+    "/images/products/001/001.png",
+    "/images/products/003/003.png",
+    "/images/products/002/002.png",
+    "/images/products/009/009.png",
+    "/images/products/008/008.png",
+    "/images/products/004/004.png",
+    "/images/products/005/005.png",
+    "/images/products/006/006.png",
+    "/images/products/007/007.png",
+  ],
+
   href:
     "/products/labradorite-bracelet",
 
@@ -28,6 +41,33 @@ export const labradoriteBracelet: ProductData = {
 
       imageAlt:
         "Natural labradorite bracelet",
+
+      features: [
+        "Natural Labradorite",
+        "Handmade",
+        "Iridescent Reflections",
+        "Lightweight",
+        "Unique Stone Patterns",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Natural Labradorite",
+        },
+        {
+          label: "Diameter",
+          value: "18 cm",
+        },
+        {
+          label: "Weight",
+          value: "30 g",
+        },
+        {
+          label: "Origin",
+          value: "Colombia",
+        },
+      ],
     },
 
     es: {
@@ -42,6 +82,33 @@ export const labradoriteBracelet: ProductData = {
 
       imageAlt:
         "Pulsera de labradorita natural",
+
+      features: [
+        "Labradorita natural",
+        "Hecha a mano",
+        "Reflejos iridiscentes",
+        "Ligera",
+        "Patrones únicos",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Labradorita natural",
+        },
+        {
+          label: "Diámetro",
+          value: "18 cm",
+        },
+        {
+          label: "Peso",
+          value: "30 g",
+        },
+        {
+          label: "Origen",
+          value: "Colombia",
+        },
+      ],
     },
 
     pt: {
@@ -56,48 +123,33 @@ export const labradoriteBracelet: ProductData = {
 
       imageAlt:
         "Pulseira de labradorita natural",
+
+      features: [
+        "Labradorita natural",
+        "Feita à mão",
+        "Reflexos iridescentes",
+        "Leve",
+        "Padrões exclusivos",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Labradorita natural",
+        },
+        {
+          label: "Diâmetro",
+          value: "18 cm",
+        },
+        {
+          label: "Peso",
+          value: "30 g",
+        },
+        {
+          label: "Origem",
+          value: "Colômbia",
+        },
+      ],
     },
   },
-
-  features: [
-    "Natural Labradorite",
-    "Handmade",
-    "Iridescent Reflections",
-    "Lightweight",
-    "Unique Stone Patterns",
-  ],
-
-  specifications: [
-    {
-      label:
-        "Material",
-
-      value:
-        "Natural Labradorite",
-    },
-
-    {
-      label:
-        "Diameter",
-
-      value:
-        "18 cm",
-    },
-
-    {
-      label:
-        "Weight",
-
-      value:
-        "30 g",
-    },
-
-    {
-      label:
-        "Origin",
-
-      value:
-        "Colombia",
-    },
-  ],
 };

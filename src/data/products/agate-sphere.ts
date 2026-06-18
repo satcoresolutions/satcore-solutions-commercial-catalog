@@ -9,6 +9,19 @@ export const agateSphere: ProductData = {
   image:
     "/images/products/008/008.png",
 
+  images: [
+    "/images/products/008/008.png",
+    "/images/products/001/001.png",
+    "/images/products/003/003.png",
+    "/images/products/002/002.png",
+    "/images/products/010/010.png",
+    "/images/products/009/009.png",
+    "/images/products/004/004.png",
+    "/images/products/005/005.png",
+    "/images/products/006/006.png",
+    "/images/products/007/007.png",
+  ],
+
   href:
     "/products/agate-sphere",
 
@@ -28,6 +41,33 @@ export const agateSphere: ProductData = {
 
       imageAlt:
         "Polished agate sphere",
+
+      features: [
+        "Polished Finish",
+        "Natural Stone",
+        "Unique Patterns",
+        "Decorative Piece",
+        "Collector's Item",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Natural Agate",
+        },
+        {
+          label: "Diameter",
+          value: "8 cm",
+        },
+        {
+          label: "Weight",
+          value: "450 g",
+        },
+        {
+          label: "Origin",
+          value: "Colombia",
+        },
+      ],
     },
 
     es: {
@@ -42,6 +82,33 @@ export const agateSphere: ProductData = {
 
       imageAlt:
         "Esfera de ágata pulida",
+
+      features: [
+        "Acabado pulido",
+        "Piedra natural",
+        "Patrones únicos",
+        "Pieza decorativa",
+        "Objeto de colección",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Ágata natural",
+        },
+        {
+          label: "Diámetro",
+          value: "8 cm",
+        },
+        {
+          label: "Peso",
+          value: "450 g",
+        },
+        {
+          label: "Origen",
+          value: "Colombia",
+        },
+      ],
     },
 
     pt: {
@@ -56,48 +123,33 @@ export const agateSphere: ProductData = {
 
       imageAlt:
         "Esfera de ágata polida",
+
+      features: [
+        "Acabamento polido",
+        "Pedra natural",
+        "Padrões exclusivos",
+        "Peça decorativa",
+        "Item de coleção",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Ágata natural",
+        },
+        {
+          label: "Diâmetro",
+          value: "8 cm",
+        },
+        {
+          label: "Peso",
+          value: "450 g",
+        },
+        {
+          label: "Origem",
+          value: "Colômbia",
+        },
+      ],
     },
   },
-
-  features: [
-    "Polished Finish",
-    "Natural Stone",
-    "Unique Patterns",
-    "Decorative Piece",
-    "Collector's Item",
-  ],
-
-  specifications: [
-    {
-      label:
-        "Material",
-
-      value:
-        "Natural Agate",
-    },
-
-    {
-      label:
-        "Diameter",
-
-      value:
-        "8 cm",
-    },
-
-    {
-      label:
-        "Weight",
-
-      value:
-        "450 g",
-    },
-
-    {
-      label:
-        "Origin",
-
-      value:
-        "Colombia",
-    },
-  ],
 };

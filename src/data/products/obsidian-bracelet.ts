@@ -9,6 +9,19 @@ export const obsidianBracelet: ProductData = {
   image:
     "/images/products/004/004.png",
 
+  images: [
+    "/images/products/004/004.png",
+    "/images/products/001/001.png",
+    "/images/products/003/003.png",
+    "/images/products/002/002.png",
+    "/images/products/010/010.png",
+    "/images/products/009/009.png",
+    "/images/products/008/008.png",
+    "/images/products/005/005.png",
+    "/images/products/006/006.png",
+    "/images/products/007/007.png",
+  ],
+
   href:
     "/products/obsidian-bracelet",
 
@@ -28,6 +41,33 @@ export const obsidianBracelet: ProductData = {
 
       imageAlt:
         "Black obsidian bracelet",
+
+      features: [
+        "Natural Obsidian",
+        "Handmade",
+        "Polished Finish",
+        "Elegant Design",
+        "Lightweight",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Black Obsidian",
+        },
+        {
+          label: "Diameter",
+          value: "18 cm",
+        },
+        {
+          label: "Weight",
+          value: "32 g",
+        },
+        {
+          label: "Origin",
+          value: "Colombia",
+        },
+      ],
     },
 
     es: {
@@ -42,6 +82,33 @@ export const obsidianBracelet: ProductData = {
 
       imageAlt:
         "Pulsera de obsidiana negra",
+
+      features: [
+        "Obsidiana natural",
+        "Hecha a mano",
+        "Acabado pulido",
+        "Diseño elegante",
+        "Ligera",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Obsidiana negra",
+        },
+        {
+          label: "Diámetro",
+          value: "18 cm",
+        },
+        {
+          label: "Peso",
+          value: "32 g",
+        },
+        {
+          label: "Origen",
+          value: "Colombia",
+        },
+      ],
     },
 
     pt: {
@@ -56,48 +123,33 @@ export const obsidianBracelet: ProductData = {
 
       imageAlt:
         "Pulseira de obsidiana negra",
+
+      features: [
+        "Obsidiana natural",
+        "Feita à mão",
+        "Acabamento polido",
+        "Design elegante",
+        "Leve",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Obsidiana negra",
+        },
+        {
+          label: "Diâmetro",
+          value: "18 cm",
+        },
+        {
+          label: "Peso",
+          value: "32 g",
+        },
+        {
+          label: "Origem",
+          value: "Colômbia",
+        },
+      ],
     },
   },
-
-  features: [
-    "Natural Obsidian",
-    "Handmade",
-    "Polished Finish",
-    "Elegant Design",
-    "Lightweight",
-  ],
-
-  specifications: [
-    {
-      label:
-        "Material",
-
-      value:
-        "Black Obsidian",
-    },
-
-    {
-      label:
-        "Diameter",
-
-      value:
-        "18 cm",
-    },
-
-    {
-      label:
-        "Weight",
-
-      value:
-        "32 g",
-    },
-
-    {
-      label:
-        "Origin",
-
-      value:
-        "Colombia",
-    },
-  ],
 };

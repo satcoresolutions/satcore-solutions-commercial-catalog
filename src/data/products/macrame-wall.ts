@@ -9,6 +9,19 @@ export const macrameWall: ProductData = {
   image:
     "/images/products/006/006.png",
 
+  images: [
+    "/images/products/006/006.png",
+    "/images/products/001/001.png",
+    "/images/products/003/003.png",
+    "/images/products/002/002.png",
+    "/images/products/010/010.png",
+    "/images/products/009/009.png",
+    "/images/products/008/008.png",
+    "/images/products/004/004.png",
+    "/images/products/005/005.png",
+    "/images/products/007/007.png",
+  ],
+
   href:
     "/products/macrame-wall",
 
@@ -28,6 +41,33 @@ export const macrameWall: ProductData = {
 
       imageAlt:
         "Handmade macramé wall hanging",
+
+      features: [
+        "Handwoven",
+        "Natural Fibers",
+        "Decorative Design",
+        "Artisan Crafted",
+        "Unique Piece",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Cotton Cord",
+        },
+        {
+          label: "Width",
+          value: "50 cm",
+        },
+        {
+          label: "Height",
+          value: "80 cm",
+        },
+        {
+          label: "Origin",
+          value: "Colombia",
+        },
+      ],
     },
 
     es: {
@@ -42,6 +82,33 @@ export const macrameWall: ProductData = {
 
       imageAlt:
         "Tapiz artesanal de macramé",
+
+      features: [
+        "Tejido a mano",
+        "Fibras naturales",
+        "Diseño decorativo",
+        "Elaboración artesanal",
+        "Pieza única",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Cordón de algodón",
+        },
+        {
+          label: "Ancho",
+          value: "50 cm",
+        },
+        {
+          label: "Altura",
+          value: "80 cm",
+        },
+        {
+          label: "Origen",
+          value: "Colombia",
+        },
+      ],
     },
 
     pt: {
@@ -56,48 +123,33 @@ export const macrameWall: ProductData = {
 
       imageAlt:
         "Tapeçaria artesanal de macramê",
+
+      features: [
+        "Tecido à mão",
+        "Fibras naturais",
+        "Design decorativo",
+        "Artesanato refinado",
+        "Peça exclusiva",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Cordão de algodão",
+        },
+        {
+          label: "Largura",
+          value: "50 cm",
+        },
+        {
+          label: "Altura",
+          value: "80 cm",
+        },
+        {
+          label: "Origem",
+          value: "Colômbia",
+        },
+      ],
     },
   },
-
-  features: [
-    "Handwoven",
-    "Natural Fibers",
-    "Decorative Design",
-    "Artisan Crafted",
-    "Unique Piece",
-  ],
-
-  specifications: [
-    {
-      label:
-        "Material",
-
-      value:
-        "Cotton Cord",
-    },
-
-    {
-      label:
-        "Width",
-
-      value:
-        "50 cm",
-    },
-
-    {
-      label:
-        "Height",
-
-      value:
-        "80 cm",
-    },
-
-    {
-      label:
-        "Origin",
-
-      value:
-        "Colombia",
-    },
-  ],
 };

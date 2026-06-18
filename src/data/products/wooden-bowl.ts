@@ -9,6 +9,19 @@ export const woodenBowl: ProductData = {
   image:
     "/images/products/005/005.png",
 
+  images: [
+    "/images/products/005/005.png",
+    "/images/products/001/001.png",
+    "/images/products/003/003.png",
+    "/images/products/002/002.png",
+    "/images/products/010/010.png",
+    "/images/products/009/009.png",
+    "/images/products/008/008.png",
+    "/images/products/004/004.png",
+    "/images/products/006/006.png",
+    "/images/products/007/007.png",
+  ],
+
   href:
     "/products/wooden-bowl",
 
@@ -28,6 +41,33 @@ export const woodenBowl: ProductData = {
 
       imageAlt:
         "Handcrafted wooden bowl",
+
+      features: [
+        "Hand Carved",
+        "Natural Wood",
+        "Artisan Crafted",
+        "Decorative Piece",
+        "Unique Grain Patterns",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Natural Wood",
+        },
+        {
+          label: "Diameter",
+          value: "25 cm",
+        },
+        {
+          label: "Height",
+          value: "10 cm",
+        },
+        {
+          label: "Origin",
+          value: "Colombia",
+        },
+      ],
     },
 
     es: {
@@ -42,6 +82,33 @@ export const woodenBowl: ProductData = {
 
       imageAlt:
         "Cuenco artesanal de madera",
+
+      features: [
+        "Tallado a mano",
+        "Madera natural",
+        "Elaboración artesanal",
+        "Pieza decorativa",
+        "Vetas únicas",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Madera natural",
+        },
+        {
+          label: "Diámetro",
+          value: "25 cm",
+        },
+        {
+          label: "Altura",
+          value: "10 cm",
+        },
+        {
+          label: "Origen",
+          value: "Colombia",
+        },
+      ],
     },
 
     pt: {
@@ -56,48 +123,33 @@ export const woodenBowl: ProductData = {
 
       imageAlt:
         "Tigela artesanal de madeira",
+
+      features: [
+        "Esculpida à mão",
+        "Madeira natural",
+        "Artesanato refinado",
+        "Peça decorativa",
+        "Veios exclusivos",
+      ],
+
+      specifications: [
+        {
+          label: "Material",
+          value: "Madeira natural",
+        },
+        {
+          label: "Diâmetro",
+          value: "25 cm",
+        },
+        {
+          label: "Altura",
+          value: "10 cm",
+        },
+        {
+          label: "Origem",
+          value: "Colômbia",
+        },
+      ],
     },
   },
-
-  features: [
-    "Hand Carved",
-    "Natural Wood",
-    "Artisan Crafted",
-    "Decorative Piece",
-    "Unique Grain Patterns",
-  ],
-
-  specifications: [
-    {
-      label:
-        "Material",
-
-      value:
-        "Natural Wood",
-    },
-
-    {
-      label:
-        "Diameter",
-
-      value:
-        "25 cm",
-    },
-
-    {
-      label:
-        "Height",
-
-      value:
-        "10 cm",
-    },
-
-    {
-      label:
-        "Origin",
-
-      value:
-        "Colombia",
-    },
-  ],
 };
